@@ -6,7 +6,11 @@ public class Estudante {
 
     //construtor completo
     public Estudante(String matricula, String nome, String email, String telefone, String endereco){
-
+    this.matricula = matricula;
+    this.nome = nome;
+    this.email = email;
+    this.telefone = telefone;
+    this.endereco = endereco;
     }
     private String matricula;
     private String nome;

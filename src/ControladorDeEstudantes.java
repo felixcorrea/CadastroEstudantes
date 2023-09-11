@@ -22,6 +22,7 @@ public class ControladorDeEstudantes {
     public void removerEstudante(Estudante estudante){
         estudantes.remove(estudante);
     }
+
     public Estudante retornarEstudantePorNome(String nome){
         Estudante estudante = null;
         for (int i = 0; i < estudantes.size(); i++){
