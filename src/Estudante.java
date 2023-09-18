@@ -1,10 +1,14 @@
-//classe com atributos, getters e setters
+
 public class Estudante {
 
-    //construtor vazio
+    private String matricula;
+    private String nome;
+    private String email;
+    private String telefone;
+    private String endereco; 
+    
     public Estudante(){}
 
-    //construtor completo
     public Estudante(String matricula, String nome, String email, String telefone, String endereco){
     this.matricula = matricula;
     this.nome = nome;
@@ -12,12 +16,6 @@ public class Estudante {
     this.telefone = telefone;
     this.endereco = endereco;
     }
-    private String matricula;
-    private String nome;
-    private String email;
-    private String telefone;
-    private String endereco;
-
 
     public String obterMatricula(){
         return matricula;
